@@ -25,16 +25,15 @@ body {
   padding-right: 15px;
 }
 
-/* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
+  border-bottom: 2px solid #BCBBBB;
+  height: 5em;
+  width: 100%;
   h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+    text-align: right;
+  }
+  h4 {
+    text-align: right;
   }
 }
 
@@ -43,6 +42,7 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
 
 .container-narrow > hr {
