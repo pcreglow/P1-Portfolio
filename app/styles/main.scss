@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "app/styles/custom.scss";
 // endbower
 
 .browserupgrade {
@@ -29,12 +30,6 @@ body {
   border-bottom: 2px solid #BCBBBB;
   height: 5em;
   width: 100%;
-  h3 {
-    text-align: right;
-  }
-  h4 {
-    text-align: right;
-  }
 }
 
 /* Custom page footer */
