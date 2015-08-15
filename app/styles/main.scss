@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "app/styles/custom.scss";
 // endbower
 
 .browserupgrade {
@@ -15,26 +16,6 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.header {
-  border-bottom: 2px solid #BCBBBB;
-  height: 5em;
-  width: 100%;
-  h3 {
-    text-align: right;
-  }
-  h4 {
-    text-align: right;
-  }
 }
 
 /* Custom page footer */
